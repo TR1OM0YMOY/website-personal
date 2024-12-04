@@ -1,39 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malas Ngoding</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ffcc; /* Warna teks futuristik */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #00ffcc;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #222;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00; /* Warna saat hover */
+        }
+        .welcome {
+            text-align: center;
+            margin: 20px;
+            font-size: 1.2em;
+        }
+        .tutorials {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+        .tutorial {
+            background-color: #222;
+            border: 1px solid #00ffcc;
+            border-radius: 10px;
+            padding: 20px;
+            width: 22%;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .tutorial:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <div class="wrap">
-        <div class="header">
-            <h1>malas ngoding</h1>
-            <p>Tutorial belajar membuat layout website sederhana</p>
-        </div>
-        <div class="menu">
-            <u1>
-                <li><a href="HTML.html">HTML</a></li>
-                <li><a href="CSS.html">css</a></li>
-                <li><a href="PHP.html">PHP</a></li>
-                <li><a href="JavaScript.html">Javascript</a></li>
-            </u1>
-        </div>
-        <div class="badan">
-            <div class="sidebar">
-                sidebar
-                <u1>
-                    <li><a href="#">tutorial HTML dasar</a></li>
-                    <li><a href="#">Tutorial CSS dasar</a></li>
-                    <li><a href="#">Tutorial PHP dasar</a></li>
-                    <li><a href="#">Tutorial JQeary dasar</a></li>
-                <u1>
-            </div>
-            <div class="content"
-            </div>
-            <div class="clear"></div>
-            <div class="footer">
-                footer
-            </div>
+
+<header>
+    <h1>Malas Ngoding</h1>
+    <table>
+        <tr>
+            <th><a href="HTML.html">HTML</a></th>
+            <th><a href="css.html">CSS</a></th>
+            <th><a href="PHP.html">PHP</a></th>
+            <th><a href="#Javascript.html">JavaScript</a></th>
+            <th><a href="#jquery">jQuery</a></th>
+        </tr>
+    </table>
+</header>
+
+<div class="welcome">
+    <p>Selamat datang di Malas Ngoding! Di sini, Anda akan menemukan berbagai materi pembelajaran tentang pemrograman web.</p>
+    <p>Jelajahi menu di atas untuk memulai perjalanan belajar Anda!</p>
+</div>
+
+<div class="tutorials">
+    <div class="tutorial" id="html">
+        <h2>HTML</h2>
+        <p>Pelajari dasar-dasar HTML, struktur dokumen, dan elemen-elemen penting.</p>
+        <a href="tutorial-html.html" style="color: #00ffcc;">Baca Tutorial</a>
     </div>
-</body>
-</html>
+    <div class="tutorial" id="css">
+        <h2>CSS</h2>
+        <p>Temukan cara untuk mendesain dan mempercantik tampilan website Anda dengan CSS.</p>
+        <a href="tutorial-css.html" style="color: #00ffcc;">Baca Tutorial</a>
+    </div>
+    <div class="tutorial" id="php">
+        <h2>PHP</h2>
+        <p>Pelajari pemrograman server-side dengan PHP untuk membuat aplikasi web dinamis.</p>
+        <a href="tutorial-php.html" style="color: #00ffcc;">Baca Tutorial</a>
+    </div>
+    <div class="tutorial" id="javascript">
+        <h2>JavaScript</h2>
+        <p>Jelajahi JavaScript untuk menambahkan interaktivitas pada website Anda.</p>
+        <a href="tutorial-javascript.html" style="color: #00ffcc;">Baca Tutorial</a>
+    </div>
+    <div class="tutorial" id="jquery">
+        <h2>jQuery</h2>
+        <p>Pelajari jQuery untuk mempermudah manipulasi DOM dan efek animasi.</p>
+        <a href
