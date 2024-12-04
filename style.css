@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    background: rgb(226, 247, 154);
+    width: 900px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.wrap .header {
+    background: green;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Menu */
+.wrap .menu {
+    background: rgb(173, 185, 9);
+}
+
+.wrap .menu ul {
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 102, 0);
+    overflow: hidden;
+    text-align: center;
+}
+
+.wrap .menu ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.wrap .menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+.wrap .menu ul li a:hover {
+    background: rgb(255, 150, 0);
+}
+
+/* Clearfix */
+.clear {
+    clear: both;
+}
+
+/* Main Content Area */
+.badan {
+    display: flex;
+    height: 450px;
+}
+
+/* Sidebar */
+.wrap .badan .sidebar {
+    background: rgb(255, 102, 0);
+    width: 25%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Content */
+.wrap .badan .content {
+    background: red;
+    width: 75%;
+    padding: 20px;
+    color: white;
+}
+
+/* Footer */
+.wrap .footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: green;
+    color: white;
+}
