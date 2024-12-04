@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar jQuery</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ffcc; /* Warna teks futuristik */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+        h2 {
+            color: #ffcc00; /* Warna judul sub */
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            background: rgba(34, 34, 34, 0.9); /* Latar belakang transparan */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Belajar jQuery</h1>
+</header>
+
+<div class="container">
+    <h2>Pengertian jQuery</h2>
+    <p>jQuery adalah pustaka JavaScript yang dirancang untuk menyederhanakan penulisan skrip di sisi klien. jQuery memudahkan manipulasi DOM, penanganan acara, dan animasi, serta memungkinkan pengembang untuk menulis kode yang lebih sedikit dan lebih efisien.</p>
+
+    <h2>Fungsi jQuery</h2>
+    <p>jQuery memiliki berbagai fungsi yang membuatnya sangat berguna dalam pengembangan web:</p>
+    <ul>
+        <li><strong>Manipulasi DOM:</strong> jQuery memungkinkan pengembang untuk dengan mudah mengubah elemen HTML dan CSS di halaman web.</li>
+        <li><strong>Penanganan Acara:</strong> jQuery menyediakan cara yang sederhana untuk menangani berbagai jenis acara, seperti klik, hover, dan pengisian formulir.</li>
+        <li><strong>Animasi:</strong> jQuery memungkinkan pengembang untuk menambahkan efek animasi yang menarik dengan mudah.</li>
+        <li><strong>AJAX:</strong> jQuery memudahkan pengambilan data dari server tanpa harus memuat ulang halaman.</li>
+    </ul>
+
+    <h2>Kelebihan jQuery</h2>
+    <p>Berikut adalah beberapa kelebihan jQuery:</p>
+    <ul>
+        <li><strong>Ringan dan Cepat:</strong> jQuery dirancang untuk menjadi ringan dan cepat, sehingga tidak membebani halaman web.</li>
+        <li><strong>Kompatibilitas:</strong> jQuery bekerja dengan baik di semua browser modern, sehingga mengurangi masalah kompatibilitas.</li>
+        <li><strong>Ekosistem yang Luas:</strong> jQuery memiliki banyak plugin yang dapat digunakan untuk menambahkan fungsionalitas tambahan.</li>
+        <li><strong>Dokumentasi yang Baik:</strong> jQuery memiliki dokumentasi yang lengkap dan mudah dipahami, sehingga memudahkan pengembang baru untuk belajar.</li>
+    </ul>
+
+    <h2>Kekurangan jQuery</h2>
+    <p>Berikut adalah beberapa kekurangan jQuery:</p>
+    <ul>
+        <li><strong>Overhead:</strong> Untuk proyek kecil, menggunakan jQuery mungkin terasa berlebihan dibandingkan dengan menulis kode JavaScript murni.</li>
+        <li><strong>Ketergantungan:</strong> Menggunakan jQuery berarti menambahkan ketergantungan pada pustaka eksternal, yang mungkin tidak diinginkan dalam beberapa kasus.</li>
+    </ul>
+
+    <div class="link-container" style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="color: #00ffcc; text-decoration: none; font-size: 1.2em;">&larr; Kembali ke Beranda</a>
+    </div>
+</div>
+
+<footer>
